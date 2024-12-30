@@ -9,6 +9,7 @@ spec:
     displayName: Readers
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: []
   children: []
   members: []
   
@@ -24,6 +25,7 @@ spec:
     displayName: Developers
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: []
   children: []
   members: [tataebusiness]
 
@@ -39,6 +41,7 @@ spec:
     displayName: IDP Admins
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: []
   children: [developers, readers]
   members: [tataebusiness]
 
