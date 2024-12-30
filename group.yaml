@@ -10,7 +10,7 @@ spec:
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
-  children: [other]
+  children: []
   members: []
   
 ---
@@ -26,7 +26,7 @@ spec:
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
-  children: [other]
+  children: []
   members: [tataebusiness]
 
 ---
@@ -42,6 +42,6 @@ spec:
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
-  children: [developers, readers, other]
+  children: [developers, readers]
   members: [tataebusiness]
 
