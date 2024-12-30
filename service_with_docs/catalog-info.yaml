@@ -6,6 +6,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
+  type: service
   lifecycle: production
-  owner: artist-relations-team
+  owner: idpadmins
