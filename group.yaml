@@ -12,3 +12,18 @@ spec:
   parent: ops
   children: [developers, other]
   members: [tataebusiness]
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: developers
+  description: The infra business unit
+spec:
+  type: team
+  profile:
+    displayName: Developers
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [other]
+  members: [tataebusiness]
