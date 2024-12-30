@@ -6,6 +6,9 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.  
 spec:
-  type: service
+  type: documentation
   lifecycle: production
   owner: idpadmins
+  definition:
+    kind: url
+    target: https://github.com/tataebusiness/backstage_toolkit/tree/main/docs
