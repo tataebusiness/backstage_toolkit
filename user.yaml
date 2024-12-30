@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tataebusiness
+spec:
+  profile:
+    displayName: Pirakorn Iamcharernying
+    email: tataebusiness@gmail.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [idpadmins]
