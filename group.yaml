@@ -41,7 +41,6 @@ spec:
     displayName: IDP Admins
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: []
   children: [developers, readers]
   members: [tataebusiness]
 
