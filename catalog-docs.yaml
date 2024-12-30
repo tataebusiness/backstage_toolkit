@@ -3,8 +3,7 @@ kind: Component
 metadata:
   name: service-with-docs
   description: The place to be, for great artists
-  annotations:
-    backstage.io/techdocs-ref: dir:.  
+  namespace: default
 spec:
   type: documentation
   lifecycle: production
