@@ -9,7 +9,7 @@ spec:
     displayName: Readers
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: []
+  parent: idpadmins
   children: []
   members: []
   
@@ -25,7 +25,7 @@ spec:
     displayName: Developers
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: []
+  parent: idpadmins
   children: []
   members: [tataebusiness]
 
