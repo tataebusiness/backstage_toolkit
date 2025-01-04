@@ -4,7 +4,7 @@ metadata:
   name: artist-web
   description: The place to be, for great artists
   annotations:
-    github.com/project-slug: 'tataebusiness/backstage_tookit'
+    github.com/project-slug: 'tataebusiness/backstage_toolkit'
 spec:
   type: website
   lifecycle: production
